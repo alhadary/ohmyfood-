@@ -1,0 +1,244 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: roboto;
+    }
+    
+       
+
+
+
+
+    header{
+
+        .back-icon{
+            position: relative;
+            font-size: 20px;
+            color: black;
+            top: 26px;
+            left: 16px;
+        }
+        .logo{
+            text-align: center;
+        }
+        img{
+            width:52%
+            
+        }
+       
+    }
+
+
+
+     main{
+
+        .back-img{
+            background-image:url(image/restaurants/bastille.jpg.jpg);
+            background-size: cover;
+            object-fit: cover;
+            height: 447px;
+            }
+            
+
+            .restaurant-name{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                background-color:aquamarine;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                border-top-left-radius: 90px;
+                border-top-right-radius: 90px;
+                margin-top: -54px;
+
+                .fa-heart{
+                    font-size: 30px;
+                    padding-right: 85px;
+                }
+                h1{
+                    padding-left: 85px;
+                }
+
+            }
+
+            .container-menu{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                // justify-content: space-around;
+                background-color: aquamarine;
+                padding-bottom: 70px;
+                padding-top: 48px;
+            }
+            h1{
+                padding-bottom: 15px;
+            }
+            
+
+            .main-menu{
+                width: 75%;
+            }
+            .btn-border{
+                border-bottom: 2px solid $primaryColor;
+            }
+
+            .menu-card{
+                background-color: rgb(241, 248, 248);
+                display: flex;
+                flex-direction: row;
+                padding-left: 15px;
+                /* padding: 0px; */
+                height: 74px;
+                border-radius: 30px;
+                justify-content: space-between;
+                align-items: flex-end;
+                width: 100%;
+                margin-bottom: 20px;
+                box-shadow: 4px 7px 8px grey;
+                // animation: drop 2s linear 0s 1 normal forwards;
+                
+
+                
+             .tittle{
+                 padding-bottom: 15px;
+                 flex-grow: 1;
+             }
+             .tittle-menu{
+                 font-size: 25px;
+             }
+             .tittle-desc{
+                font-size:21px ;
+
+            }
+             .price{
+                 padding-bottom: 15px;
+                 padding-right: 10px;
+                 font-size: 21px;
+             }
+            
+            .chick{
+                background-color: #d1ced3;
+                border-top-right-radius: 30px;
+                border-bottom-right-radius: 30px;
+                height: 100%;
+                width: 0%;
+                // display: ;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .fa-check-circle{
+                display: none;
+            }
+
+            // &:hover{
+            //     .chick{
+                  
+            //         animation: slid 2s linear 0s 1 forwards;
+            //             // animation: name duration timing-function delay iteration-count direction fill-mode;
+            //             width: 20%;
+            //     }
+
+            // &:hover{
+            //     .fa-check-circle{
+            //         width: 20%;
+            //         display: block;
+            //         padding: 20px;
+            //         font-size: 24px;
+            //         animation: slid 2s linear 0s 1 forwards;
+            //     }
+            }
+            }
+            
+            
+            .btn{
+                text-align: center;
+                // margin-top: 25px;
+                // margin-bottom: 60px;
+                padding-bottom: 80px;
+                padding-top: 48px;
+                background-color: #f1f8f8;
+
+
+                .order-btn{
+                width: 21%;
+                font-size: 30px;
+                padding: 15px;
+                border-radius: 25px;
+                background-color: #9356DC;
+                color:wheat;
+                border: 0px;
+                
+            }
+            // @keyframes slid{
+            //     from {
+            //             width: 0%;
+            //     }
+            //     to{
+            //             width: 20%;
+            //     }
+            // }
+            // @keyframes slid{
+            //     from {
+            //             transform: rotate(0 deg);
+            //     }
+            //     to{
+            //             transform: rotate(80 deg);
+            //     }
+            // }
+
+        }
+
+
+
+
+       
+
+    
+    footer{
+        background-color: #0e0a0a;
+        color: #dfeaec;
+        margin-top: -20px;
+        width: 100%;
+
+        h1{
+            margin-left: 20px;
+            font-family: shrikhand;
+        }
+        li{
+            list-style-type: none;
+            margin-bottom: 6px;
+            margin-left: 17px;
+            padding-bottom: 8px;
+        }
+        a{
+            color: #f4ecec;
+            text-decoration: none;
+        }
+        .fot-but{
+            margin-left: 20px;
+        }
+
+    }
+    @keyframes drop{
+    from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+            margin-top: 8px;
+        }
+        
+    }
+    // @keyframes slid{
+    //     from {
+    //             width: 0%;
+    //     }
+    //     to{
+    //             width: 20%;
+    //     }
+    // }
+    
+    }

@@ -1,0 +1,249 @@
+@media screen and (max-width: 767px) {
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+  }
+  .logo {
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 15px;
+  }
+  .logo img {
+    width: 70%;
+  }
+  .location {
+    border: 2px solid #99E2D0;
+    background-color: #99E2D0;
+    padding-bottom: 17px;
+  }
+  .location p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .booking {
+    background-color: gainsboro;
+    margin-top: -22px;
+    text-align: center;
+    height: 240px;
+    padding-top: 4px;
+  }
+  .booking p {
+    font-size: 24px;
+  }
+  .booking .explore-btn {
+    border: 2px solid #9356DC;
+    background: -webkit-gradient(linear, left top, left bottom, from(#593e6d), to(#7d5ce2));
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  /*How it works section*/
+  #how-works h2 {
+    margin-left: 30px;
+    font-size: 30px;
+  }
+  #how-works .homePage-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 76%;
+    border: 0px solid;
+    border-radius: 20px;
+    background-color: #efe5e5;
+    padding: 16px;
+    margin-left: 30px;
+    -webkit-box-shadow: 4px 10px 8px darkgrey;
+            box-shadow: 4px 10px 8px darkgrey;
+  }
+  #how-works .homePage-btn :hover {
+    background-color: blue;
+  }
+  #how-works .number-icon {
+    border: 0px solid;
+    border-radius: 50%;
+    padding: 11px 15px 10px 15px;
+    background-color: #9356DC;
+    margin-left: -40px;
+  }
+  #how-works .homePage-icon {
+    margin-left: 20px;
+    font-size: 28px;
+    color: #FF79DA;
+  }
+  #how-works .homePage-icon :hover {
+    color: blue;
+  }
+  #how-works .paragraph-btn {
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 7px;
+  }
+  #main-secsion {
+    margin-top: 35px;
+    padding-bottom: 50px;
+    background-color: #efe5e5;
+  }
+  #main-secsion h1 {
+    font-size: 33px;
+    margin-left: 26px;
+    padding-top: 43px;
+    margin-bottom: 0;
+  }
+  #main-secsion .restaurant-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 5px;
+  }
+  #main-secsion .restaurant-container .restaurant-cards {
+    width: 85%;
+    margin: 15px;
+  }
+  #main-secsion .restaurant-container a {
+    text-decoration: none;
+    width: 100%;
+  }
+  #main-secsion .restaurant-container .image-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    border-radius: 25px;
+    background-color: #efeff5;
+    width: 100%;
+    padding: 0px;
+    margin-left: 7px;
+    -webkit-box-shadow: 4px 7px 8px grey;
+            box-shadow: 4px 7px 8px grey;
+  }
+  #main-secsion .restaurant-container .image-card .card-head {
+    width: 100%;
+    height: 300px;
+    background-image: url(image/restaurants/full-palette.jpg.jpg);
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 0;
+    padding: 18px;
+    width: calc(100% - 36px);
+    text-align: right;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 180px;
+  }
+  #main-secsion .restaurant-container .image-card .enchanted-plate {
+    background-image: url(image/restaurants/enchanted-plate.jpg);
+    height: 300px;
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 0;
+    padding: 18px;
+    width: calc(100% - 36px);
+    text-align: right;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 180px;
+  }
+  #main-secsion .restaurant-container .image-card .bastille {
+    background-image: url(image/restaurants/bastille.jpg.jpg);
+    height: 300px;
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 0;
+    padding: 18px;
+    width: calc(100% - 36px);
+    text-align: right;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 180px;
+  }
+  #main-secsion .restaurant-container .image-card .le-gourmand {
+    background-image: url(image/restaurants/le-gourmand.jpg.jpg);
+    height: 300px;
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 0;
+    padding: 18px;
+    width: calc(100% - 36px);
+    text-align: right;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 180px;
+  }
+  #main-secsion .restaurant-container .image-card .lable-new {
+    background-color: #f7efef;
+    padding: 9px 15px;
+  }
+  #main-secsion .restaurant-container .image-card .card-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #main-secsion .restaurant-container .image-card .card-details .card-title {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  #main-secsion .restaurant-container .image-card .card-details .fa-heart {
+    padding-right: 15px;
+    font-size: 24px;
+  }
+  footer {
+    background-color: #0e0a0a;
+    color: #dfeaec;
+    margin-top: -20px;
+    width: 100%;
+  }
+  footer h1 {
+    margin-left: 20px;
+    font-family: shrikhand;
+  }
+  footer li {
+    list-style-type: none;
+    margin-bottom: 6px;
+    padding-bottom: 8px;
+  }
+  footer a {
+    color: #f4ecec;
+    text-decoration: none;
+  }
+  footer .fot-but {
+    margin-left: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

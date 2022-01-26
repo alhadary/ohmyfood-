@@ -1,0 +1,228 @@
+@media screen and (max-width: 767px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+  }
+  header .back-icon {
+    position: relative;
+    font-size: 20px;
+    color: black;
+    top: 26px;
+    left: 16px;
+  }
+  header .logo {
+    text-align: center;
+  }
+  header img {
+    width: 52%;
+  }
+  main .back-img {
+    background-image: url(image/restaurants/bastille.jpg.jpg);
+    background-size: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 228px;
+  }
+  main .restaurant-name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #efe5e5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
+    margin-top: -54px;
+  }
+  main .restaurant-name .fa-heart {
+    font-size: 30px;
+    padding-right: 20px;
+  }
+  main .restaurant-name h1 {
+    padding-left: 20px;
+  }
+  main .container-menu {
+    display: block;
+    background-color: #efe5e5;
+    padding-bottom: 25px;
+  }
+  main .container-menu h1 {
+    margin-left: 22px;
+  }
+  main .container-menu .btn-border {
+    border-bottom: 2px solid #9356DC;
+  }
+  main .menu-card {
+    background-color: #f1f8f8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-left: 15px;
+    /* padding: 0px; */
+    height: 74px;
+    border-radius: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 85%;
+    -webkit-box-shadow: 4px 7px 8px grey;
+            box-shadow: 4px 7px 8px grey;
+    margin-bottom: 20px;
+    margin-left: 18px;
+    -webkit-animation: drop 2s linear 0s 1 normal forwards;
+            animation: drop 2s linear 0s 1 normal forwards;
+  }
+  main .menu-card .tittle {
+    padding-bottom: 15px;
+  }
+  main .menu-card .tittle-menu {
+    font-size: 16px;
+  }
+  main .menu-card .price {
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  main .menu-card .chick {
+    display: none;
+  }
+  main .menu-card .fa-check-circle {
+    display: none;
+  }
+}
+
+.btn {
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 30px;
+  background-color: bisque;
+}
+
+.btn .order-btn {
+  width: 50%;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 25px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ddd3e4), to(#0f0629));
+  color: wheat;
+  border: 0px;
+}
+
+@-webkit-keyframes drop {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    margin-top: 8px;
+  }
+}
+
+@keyframes drop {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    margin-top: 8px;
+  }
+}
+
+footer {
+  background-color: #0e0a0a;
+  color: #dfeaec;
+  margin-top: -20px;
+  width: 100%;
+}
+
+footer h1 {
+  margin-left: 20px;
+  font-family: shrikhand;
+}
+
+footer li {
+  list-style-type: none;
+  margin-bottom: 6px;
+  margin-left: 17px;
+  padding-bottom: 8px;
+}
+
+footer a {
+  color: #f4ecec;
+  text-decoration: none;
+}
+
+footer .fot-but {
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #0e0a0a;
+  color: #dfeaec;
+  margin-top: -20px;
+  width: 100%;
+}
+
+footer h1 {
+  margin-left: 20px;
+  font-family: shrikhand;
+}
+
+footer li {
+  list-style-type: none;
+  margin-bottom: 6px;
+  margin-left: 17px;
+  padding-bottom: 8px;
+}
+
+footer a {
+  color: #f4ecec;
+  text-decoration: none;
+}
+
+footer .fot-but {
+  margin-left: 20px;
+}
+
+@keyframes drop {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    margin-top: 12px;
+  }
+}
+
+@-webkit-keyframes slid {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 20%;
+  }
+}
+
+@keyframes slid {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 20%;
+  }
+}
+/*# sourceMappingURL=menu.css.map */

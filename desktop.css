@@ -1,0 +1,263 @@
+@media screen and (min-width: 992px) {
+  body {
+    font-family: roboto;
+    padding: 0;
+    margin: 0;
+  }
+  .logo {
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 15px;
+  }
+  .logo img {
+    width: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .paris-spac {
+    margin-left: 10px;
+  }
+  .location {
+    border: 2px solid #99E2D0;
+    background-color: #99E2D0;
+    padding-bottom: 17px;
+  }
+  .location p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .booking {
+    background-color: gainsboro;
+    margin-top: -22px;
+    text-align: center;
+    height: 240px;
+    padding-top: 4px;
+  }
+  .booking p {
+    font-size: 24px;
+  }
+  .booking .explore-btn {
+    border: 2px solid #9356DC;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ddd3e4), to(#0f0629));
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  /*How it works section*/
+  #how-works h2 {
+    margin-left: 40px;
+    font-size: 42px;
+    text-align: center;
+  }
+  #how-works .btn-container {
+    width: 96%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #how-works .btn-container .homePage-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 76%;
+    border: 0px solid;
+    border-radius: 20px;
+    background-color: #efe5e5;
+    padding: 16px;
+    margin-left: 30px;
+    -webkit-box-shadow: 4px 10px 8px #eeebf3;
+            box-shadow: 4px 10px 8px #eeebf3;
+  }
+  #how-works .btn-container .number-icon {
+    border: 0px solid;
+    border-radius: 50%;
+    padding: 17px 23px 14px 23px;
+    background-color: #9356DC;
+    margin-left: -34px;
+    font-size: 20px;
+  }
+  #how-works .btn-container .homePage-icon {
+    margin-left: 20px;
+    font-size: 28px;
+    color: #FF79DA;
+    font-size: 45px;
+  }
+  #how-works .btn-container .paragraph-btn {
+    font-size: 20px !important;
+    padding: 10px !important;
+  }
+  #main-secsion {
+    margin-top: 35px;
+    padding-bottom: 50px;
+    background-color: #efe5e5;
+  }
+  #main-secsion h1 {
+    font-size: 33px;
+    margin-left: 26px;
+    padding-top: 43px;
+    margin-bottom: 0;
+  }
+  #main-secsion .restaurant-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  #main-secsion .restaurant-container .restaurant-cards {
+    width: 44%;
+    margin: 15px;
+  }
+  #main-secsion .restaurant-container a {
+    text-decoration: none;
+    width: 100%;
+  }
+  #main-secsion .restaurant-container .image-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    border-radius: 25px;
+    background-color: #efeff5;
+    width: 100%;
+    padding: 0px;
+    margin-left: 25px;
+    -webkit-box-shadow: 4px 7px 8px grey;
+            box-shadow: 4px 7px 8px grey;
+  }
+  #main-secsion .restaurant-container .card-head {
+    width: 100%;
+    height: 300px;
+    background-image: url(image/restaurants/full-palette.jpg.jpg);
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 0;
+    padding: 18px;
+    width: calc(100% - 36px);
+    text-align: right;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #main-secsion .restaurant-container .enchanted-plate {
+    background-image: url(image/restaurants/enchanted-plate.jpg);
+    height: 300px;
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 0;
+    padding: 18px;
+    width: calc(100% - 36px);
+    text-align: right;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #main-secsion .restaurant-container .bastille {
+    background-image: url(image/restaurants/bastille.jpg.jpg);
+    height: 300px;
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 0;
+    padding: 18px;
+    width: calc(100% - 36px);
+    text-align: right;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #main-secsion .restaurant-container .le-gourmand {
+    background-image: url(image/restaurants/le-gourmand.jpg.jpg);
+    height: 300px;
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 0;
+    padding: 18px;
+    width: calc(100% - 36px);
+    text-align: right;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #main-secsion .restaurant-container .lable-new {
+    background-color: #f7efef;
+    padding: 9px 15px;
+  }
+  #main-secsion .restaurant-container .card-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #main-secsion .restaurant-container .card-details .card-title {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  #main-secsion .restaurant-container .card-details .fa-heart {
+    padding-right: 15px;
+    font-size: 24px;
+  }
+  #main-secsion .restaurant-container .card-details .fa-heart:hover {
+    color: blue;
+  }
+}
+
+footer {
+  background-color: #0e0a0a;
+  color: #dfeaec;
+  margin-top: -20px;
+  width: 100%;
+}
+
+footer h1 {
+  margin-left: 20px;
+  font-family: shrikhand;
+}
+
+footer li {
+  list-style-type: none;
+  margin-bottom: 6px;
+  padding-bottom: 8px;
+}
+
+footer a {
+  color: #f4ecec;
+  text-decoration: none;
+}
+
+footer .fot-but {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=desktop.css.map */
