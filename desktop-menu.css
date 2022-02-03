@@ -35,7 +35,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background-color: #e1e6e5;
+    background-color: #faf3f3;
     padding-top: 30px;
     padding-bottom: 30px;
     border-top-left-radius: 90px;
@@ -59,7 +59,7 @@
             flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    background: #e1e6e5;
+    background: #faf3f3;
     padding-bottom: 70px;
     padding-top: 48px;
   }
@@ -70,7 +70,7 @@
     width: 30%;
   }
   main .menu-card {
-    background-color: #f1f8f8;
+    background-color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -107,7 +107,7 @@
     padding-right: 10px;
   }
   main .menu-card .chick {
-    background-color: #d1ced3;
+    background-color: #99E2D0;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     height: 100%;
@@ -142,7 +142,7 @@
     text-align: center;
     padding-bottom: 80px;
     padding-top: 48px;
-    background-color: #f1f8f8;
+    background-color: #faf3f3;
   }
   main .btn .order-btn {
     width: 21%;
@@ -152,8 +152,9 @@
     color: wheat;
     border: 0px;
   }
-  main .btn .order-btn:hover {
-    background-color: #0f1414;
+  main .btn .order-btn .order-btn:hover {
+    -webkit-box-shadow: 4px 10px 8px #8c6ca3;
+            box-shadow: 4px 10px 8px #8c6ca3;
   }
   @-webkit-keyframes slid {
     from {

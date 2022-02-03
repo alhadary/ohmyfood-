@@ -14,7 +14,7 @@
   }
   .location {
     border: 2px solid #99E2D0;
-    background-color: #99E2D0;
+    background-color: gainsboro;
     padding-bottom: 17px;
   }
   .location p {
@@ -23,7 +23,7 @@
     font-weight: bold;
   }
   .booking {
-    background-color: gainsboro;
+    background-color: #faf3f3;
     margin-top: -22px;
     text-align: center;
     height: 240px;
@@ -57,7 +57,7 @@
     width: 76%;
     border: 0px solid;
     border-radius: 20px;
-    background-color: #efe5e5;
+    background-color: #faf3f3;
     padding: 16px;
     margin-left: 30px;
     -webkit-box-shadow: 4px 10px 8px darkgrey;
@@ -76,10 +76,10 @@
   #how-works .homePage-icon {
     margin-left: 20px;
     font-size: 28px;
-    color: #FF79DA;
+    color: #937676;
   }
-  #how-works .homePage-icon :hover {
-    color: blue;
+  #how-works .homePage-icon .store {
+    color: #9356DC;
   }
   #how-works .paragraph-btn {
     margin-left: 20px;
@@ -90,7 +90,7 @@
   #main-secsion {
     margin-top: 35px;
     padding-bottom: 50px;
-    background-color: #efe5e5;
+    background-color: #faf3f3;
   }
   #main-secsion h1 {
     font-size: 33px;
@@ -196,7 +196,7 @@
     height: 180px;
   }
   #main-secsion .restaurant-container .image-card .lable-new {
-    background-color: #f7efef;
+    background-color: #99E2D0;
     padding: 9px 15px;
   }
   #main-secsion .restaurant-container .image-card .card-details {
@@ -214,6 +214,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    color: black;
   }
   #main-secsion .restaurant-container .image-card .card-details .card-title {
     margin-bottom: 10px;

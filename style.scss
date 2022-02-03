@@ -11,6 +11,9 @@
         padding: 0;
         margin: 0;
         font-family: $textFont;
+       
+        
+        
     }
     
 
@@ -25,7 +28,7 @@
     }
     .location{
         border:2px solid $tiaryColor;
-        background-color: $tiaryColor;
+        background-color: gainsboro;
         padding-bottom: 17px;
         
         p { 
@@ -35,7 +38,7 @@
         }
     }
     .booking{
-        background-color: gainsboro;
+        background-color: #faf3f3;
         margin-top: -22px;
         text-align: center; 
         height: 240px; 
@@ -75,7 +78,7 @@
             width: 76%;
             border: 0px solid;
             border-radius: 20px;
-            background-color: #efe5e5;
+            background-color: #faf3f3;
             padding: 16px;
             margin-left: 30px;
             
@@ -96,12 +99,15 @@
             .homePage-icon{            //hover
                 margin-left: 20px;
                 font-size: 28px;
-                color: $econdaryColor;
-                :hover{
-                    color: blue;
+                color: #937676;
+
+                .store {
+                    color:$primaryColor;
                 }
                
+               
             }
+           
             
            
             .paragraph-btn{
@@ -118,7 +124,7 @@
     #main-secsion {
                 margin-top: 35px;
                 padding-bottom: 50px;
-                background-color: #efe5e5;
+                background-color: #faf3f3;
 
             h1{
                 font-size: 33px;
@@ -207,7 +213,7 @@
                     }
                     .lable-new{
                             
-                        background-color: #f7efef;
+                        background-color: $tiaryColor;
                         padding: 9px 15px;
                         
                     }
@@ -217,6 +223,7 @@
                         justify-content: space-between;
                         width: 100%;
                         align-items: center;
+                        color: black;
 
                         .card-title{
                             margin-bottom: 10px;

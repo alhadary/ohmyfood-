@@ -44,7 +44,7 @@
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
-                background-color:rgb(225, 230, 229);
+                background-color:#faf3f3;
                 padding-top: 30px;
                 padding-bottom: 30px;
                 border-top-left-radius: 90px;
@@ -65,7 +65,7 @@
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
-                background:rgb(225, 230, 229);
+                background:#faf3f3;
                 padding-bottom: 70px;
                 padding-top: 48px;
                 
@@ -79,7 +79,7 @@
             }
 
             .menu-card{
-                background-color: rgb(241, 248, 248);
+                background-color: white;
                 display: flex;
                 flex-direction: row;
                 padding-left: 15px;
@@ -107,7 +107,8 @@
              }
             
             .chick{
-                background-color: #d1ced3;
+                background-color: #99E2D0;
+                
                 border-top-right-radius: 30px;
                 border-bottom-right-radius: 30px;
                 height: 100%;
@@ -130,6 +131,7 @@
                         // animation: name duration timing-function delay iteration-count direction fill-mode;
                         width: 20%;
                         animation: slid 1s linear 0s 0.8 normal forwards;
+                       
                 }
 
             &:hover{
@@ -141,6 +143,7 @@
                     font-size: 24px;
                     animation: slid-up-down 1s linear 0s 1 forwards;
                     
+                    
                 }
             }
             }
@@ -151,7 +154,7 @@
                 
                 padding-bottom: 80px;
                 padding-top: 48px;
-                background-color: #f1f8f8;
+                background-color: #faf3f3;
 
 
 
@@ -164,8 +167,11 @@
                 color:wheat;
                 border: 0px;
 
-                &:hover{
-                    background-color: #0f1414;
+                .order-btn:hover{
+                    // background-color: #0f1414;
+                   
+                        box-shadow: 4px 10px 8px #8c6ca3;
+                    
                     // color: black;
                 }
             }

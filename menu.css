@@ -35,7 +35,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background-color: #efe5e5;
+    background-color: #faf3f3;
     padding-top: 30px;
     padding-bottom: 30px;
     border-top-left-radius: 64px;
@@ -51,7 +51,7 @@
   }
   main .container-menu {
     display: block;
-    background-color: #efe5e5;
+    background-color: #faf3f3;
     padding-bottom: 25px;
   }
   main .container-menu h1 {
@@ -61,7 +61,7 @@
     border-bottom: 2px solid #9356DC;
   }
   main .menu-card {
-    background-color: #f1f8f8;
+    background-color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -109,7 +109,7 @@
   text-align: center;
   padding-bottom: 60px;
   padding-top: 30px;
-  background-color: bisque;
+  background-color: #faf3f3;
 }
 
 .btn .order-btn {
